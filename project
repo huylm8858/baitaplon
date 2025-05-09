@@ -1,0 +1,10 @@
+laodong_scraper/
+│
+├── main.py                # Mã chính: thu thập & lưu dữ liệu
+├── scraper.py             # Chứa logic scraping
+├── scheduler.py           # Set lịch chạy hằng ngày
+├── utils.py               # Hàm hỗ trợ như save_csv, logger
+├── requirements.txt       # Danh sách thư viện
+├── README.md              # Hướng dẫn chi tiết
+└── data/
+    └── laodong_data_YYYY-MM-DD.csv
